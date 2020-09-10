@@ -8,7 +8,7 @@ URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.
 
   def get_response_body
     uri = URI.parse(URL)
-    response = Net::HTTP.get_response(uri)
+    response = Net::HTTP.get(uri)
     response.body
   end
 end
