@@ -15,7 +15,7 @@ class GetRequester
     requesters = GetRequester.new.get_response_body
     puts requesters
   end
-  end
+  
 end
   
     
