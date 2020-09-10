@@ -14,6 +14,13 @@ class GetRequester
     response.body
   end
   
+  def parse_json
+    parse_json = JSON.parse(self.get_response_body)
+    parse_json.collect do |request|
+    request  
+  end
+end
+  
 end
   
     
