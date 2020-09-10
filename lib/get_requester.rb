@@ -13,7 +13,7 @@ class GetRequester
     response = Net::HTTP.get_response(uri)
     response.body
     requesters = GetRequester.new.get_response_body
-puts requesters
+    puts requesters
   end
 end
   
